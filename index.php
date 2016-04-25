@@ -4,7 +4,7 @@
 
     //$link = db_connect();
     
-    include(dirname(__FILE__)."/veiws/mainpage.html");
+    include(dirname(__FILE__)."/veiws/mainpage.php");
 
 ?>
 
