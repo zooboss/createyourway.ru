@@ -3,7 +3,7 @@
 <head>
     <title>Create Your Way</title>
     <meta charset = "utf-8">
-    <link rel = "stylesheet" type = "text/css" href = "mainstyle.css">
+    <link rel = "stylesheet" type = "text/css" href = "css/mainstyle.css">
     <script type = "text/javascript" src = "/libraries/jquery-1.12.3.min.js"></script>
     <script type = "text/javascript" src = "/libraries/jquery-ui.min.js"></script>
 </head>
