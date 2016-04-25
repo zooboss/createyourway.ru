@@ -2,41 +2,57 @@
     box-sizing: border-box;
 }
 
+section {
+    background-image: url("../images/background2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .container, .container-top ,.container-center, .container-bottom {
     display: flex;
     justify-content: space-between;
+    
 }
 
 .container {
     flex-direction: column;
-    width: 80%;
-    height: 80%;
     margin: 0 auto;
-    min-width: 1000px;
-    min-height: 700px;
-    border: 1px dotted red;
+    min-height: 90%;
+    min-width: 80%;
+    
 }
 
 .container-center {
     align-items: center;
+    
 }
 
 .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     min-width: 160px;
-    min-height: 120px;
-    height: 18%;
-    width: 18%;
+    min-height: 130px;
+    height: 20vh;
+    width: 12vw;
     border-radius: 10px;
-    background-color: deepskyblue;
+    background-color: rgba(15, 32, 44, 0.8);
     border: 1px solid black;
+    -webkit-box-shadow: 0px 0px 55px 4px rgba(66,11,66,1);
+    -moz-box-shadow: 0px 0px 55px 4px rgba(66,11,66,1);
+    box-shadow: 0px 0px 55px 4px rgba(66,11,66,1);
 }
 
 .main-service {
-    height: 25%;
-    width: 25%;
-    min-width: 320px;
-    min-height: 240px;
+    height: 30vh;
+    width: 18vw;
+    min-width: 240px;
+    min-height: 205px;
     
 }
 
@@ -46,9 +62,7 @@
 
 header {
     border: 2px solid black;
-    height: 5%;
-    min-height: 50px;
-    min-width: 1000px;
+    
     margin-bottom: 10px;
 }
 
@@ -61,4 +75,21 @@ header {
     float: right;
     margin-right: 10%;
     
+}
+
+.desc {
+    font-size: 1.4rem;
+    font-family: 'Corbel';
+    color: floralwhite;
+    justify-content: center;
+    align-self: center;
+    
+}
+.main-service .desc {
+    font-size: 2rem;
+    
+}
+
+.desc p{
+    text-align: center;
 }

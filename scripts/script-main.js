@@ -2,12 +2,10 @@ $(document).ready(function()
 {
     $(document).on('mouseenter', '.item', function()
     {
-        $(this).css("background-color", "black");        
+        $(this).click('slide', 1000);
+        
     });
-    $(document).on('mouseout', '.item', function()
-    {
-        $(this).css("background-color", "deepskyblue");        
-    });
+    
     
             
     
