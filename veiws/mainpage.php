@@ -4,14 +4,19 @@
     <title>Create Your Way</title>
     <meta charset = "utf-8">
     <link rel = "stylesheet" type = "text/css" href = "css/mainstyle.css">
-    <script type = "text/javascript" src = "libraries/jquery-1.12.3.min.js"></script>
+    <script type = "text/javascript" src = "libraries/jquery-2.2.3.min.js"></script>
     <script type = "text/javascript" src = "libraries/jquery-ui.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script type = "text/javascript" src = "scripts/script-main.js"></script>
+    <!-- <script type = "text/javascript" src = "scripts/scroll.js"></script> -->
 </head>
     
 <body>
     
     <main>
+        <section></section>
         <section>
             <header>
                 <div class = "logo"></div>
@@ -56,7 +61,7 @@
                             <p>Мобильные версии</p>
                         </div>
                     </div>
-                    <div class = "item sub-service">
+                    <div class = "item sub-service" >
                         <div class = "desc">
                             <p>Придание динамичности</p>
                         </div>
