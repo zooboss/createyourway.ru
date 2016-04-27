@@ -16,7 +16,7 @@
 <body>
     
     <main>
-        <section class="scene">
+        <section class="scene one">
             <div class = "container container-1">
                 <div class = "sitename">
                     <span>Create</span>
@@ -27,7 +27,7 @@
             </div>
         </section>
         
-        <section class="scene">
+        <section class="scene two">
             <div class = "container">
                 <div class = "container-top">
                     <div class = "item sub-service">
@@ -77,7 +77,7 @@
             </div>
             
         </section>
-        <section class="scene">
+        <section class="scene three">
         </section>
         
         

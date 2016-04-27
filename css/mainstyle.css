@@ -1,6 +1,9 @@
 /*------------------------------main settings*/
 * {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 section {
@@ -15,7 +18,7 @@ section {
     margin-bottom: 400px;
     
 }
-section:nth-of-type(1)::before{
+section.one::before{
     content: " ";
     background-image: url("../images/background-s1.jpg");
     background-repeat: no-repeat;
@@ -26,12 +29,12 @@ section:nth-of-type(1)::before{
     filter: blur(5px);  
     
     position: absolute;
-    z-index: -1;
+    z-index: -2;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
-section:nth-of-type(2){
+section.two{
     background-image: url("../images/background2.jpg");
     
 }
