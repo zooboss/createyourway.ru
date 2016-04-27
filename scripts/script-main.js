@@ -14,16 +14,10 @@ $(document).ready(function()
         $($p).stop(true, true).show('drop',{direction:"up"}, 500);
         $(this).removeClass("highlight");
         $(this).addClass("highlight-end");
-    }),
-/*-------------------------------section 1 hover effects---------------------*/    
-    $(".move").hover(function(){
-        $(this).effect('explode');
-    },
-    function(){
-        $(this).show('explode');
-        
     });
+  
+    /*--------------------------Section 1 button effects---------------------*/    
         
-    
+     
     
 });

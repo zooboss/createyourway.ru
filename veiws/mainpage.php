@@ -6,11 +6,13 @@
     <link rel = "stylesheet" type = "text/css" href = "css/mainstyle.css">
     <script type = "text/javascript" src = "libraries/jquery-2.2.3.min.js"></script>
     <script type = "text/javascript" src = "libraries/jquery-ui.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.3/TweenMax.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
     <script type = "text/javascript" src = "scripts/script-main.js"></script>
-    <script type = "text/javascript" src = "scripts/scroll.js"></script>
+   <!-- <script type = "text/javascript" src = "scripts/scroll.js"></script> -->
+   
 </head>
     
 <body>
@@ -24,10 +26,20 @@
                     <span class="move">W</span><span class="move">a</span><span class="move">y</span>
                     <span>A</span>
                 </div>
+                <div class = "button">
+                    <div class = "button-arrow">
+                        
+                    </div>
+                </div>
             </div>
         </section>
         
         <section class="scene two">
+        
+        
+        </section>
+        
+        <section class="scene three">
             <div class = "container">
                 <div class = "container-top">
                     <div class = "item sub-service">
@@ -77,7 +89,7 @@
             </div>
             
         </section>
-        <section class="scene three">
+        <section class="scene four">
         </section>
         
         
