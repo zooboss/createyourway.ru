@@ -17,7 +17,18 @@ $(document).ready(function()
     });
   
     /*--------------------------Section 1 button effects---------------------*/    
+    $(".button").hover(function()
+    {
         
+        $(this).removeClass("button-highlight-end");
+        $(this).addClass("button-highlight");
+    },
+    function()
+    {
+        
+        $(this).removeClass("button-highlight");
+        $(this).addClass("button-highlight-end");
+    });
      
     
 });
