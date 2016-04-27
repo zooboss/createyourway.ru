@@ -118,15 +118,15 @@ section.three{
     justify-content: center;
     align-items: center;
     border: 2px solid gray;
-    opacity: 0.3;
+    opacity: 0.4;
     height: 5em;
     width: 5em;
     background-color: rgba(100,100,100,0.5);
     border-radius: 50%;
-    box-shadow: 0px 0px 3px black;
-    box-shadow: inset 0px 0px 2px black;
+    box-shadow: 0px 0px 5px 4px black;
+    box-shadow: inset 0px 0px 3px 2px white;
     
-    transition: all 2s;
+    transition: all 1s;
     
     
 }
@@ -141,7 +141,34 @@ section.three{
 }
 /*--------------------------section 1 button effects----------------*/
 
-
+.button-highlight
+{
+    -webkit-box-shadow: 0px 0px 5px 4px white;
+    -moz-box-shadow: 0px 0px 5px 4px white;
+    box-shadow: 0px 0px 5px 4px white;
+    -moz-transition: box-shadow 1s; /* Firefox */
+    -webkit-transition: box-shadow 1s; /* Safari and Chrome */
+    -o-transition: box-shadow 1s; /* Opera */
+    transition: box-shadow 1s;
+    
+    transform: scale(1.2) rotate(180deg);
+    transition: transform 1s;
+    
+    
+}
+.button-highlight-end
+{
+    -webkit-box-shadow: 0px 0px 5px 4px black;
+    -moz-box-shadow: 0px 0px 5px 4px black;
+    box-shadow: 0px 0px 5px 4px black;
+    -moz-transition: box-shadow 1s; /* Firefox */
+    -webkit-transition: box-shadow 1s; /* Safari and Chrome */
+    -o-transition: box-shadow 1s; /* Opera */
+    transition: box-shadow 1s;
+    
+    transform: scale(1);
+    transition: transform 1s;
+}
 
 
 
