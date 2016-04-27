@@ -16,11 +16,18 @@
 <body>
     
     <main>
-        <section></section>
         <section>
-            <header>
-                <div class = "logo"></div>
-            </header>
+            <div class = "container container-1">
+                <div class = "sitename">
+                    <span>Create</span>
+                    <span>Your</span>
+                    <span class="move">W</span><span class="move">a</span><span class="move">y</span>
+                    <span>A</span>
+                </div>
+            </div>
+        </section>
+        <section>
+            
             <div class = "container">
                 <div class = "container-top">
                     <div class = "item sub-service">
