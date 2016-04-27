@@ -10,13 +10,13 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script type = "text/javascript" src = "scripts/script-main.js"></script>
-    <!-- <script type = "text/javascript" src = "scripts/scroll.js"></script> -->
+    <script type = "text/javascript" src = "scripts/scroll.js"></script>
 </head>
     
 <body>
     
     <main>
-        <section>
+        <section class="scene">
             <div class = "container container-1">
                 <div class = "sitename">
                     <span>Create</span>
@@ -26,8 +26,8 @@
                 </div>
             </div>
         </section>
-        <section>
-            
+        
+        <section class="scene">
             <div class = "container">
                 <div class = "container-top">
                     <div class = "item sub-service">
@@ -77,7 +77,8 @@
             </div>
             
         </section>
-        <section></section>
+        <section class="scene">
+        </section>
         
         
     
