@@ -358,12 +358,12 @@ section.two {
     font-family:  'Bebas Neye', sans-serif; 
 }
 .container-2 h4 {
-    font-size: 5vh;
+    font-size: 4vh;
     text-align: left;
     color: #c1c3ff;
-    line-height: 5vh;
+    line-height: 4vh;
     width: 90%;
-    font-family:  sans-serif; 
+    font-family: 'Open Sans', sans-serif;
     line-height: 6vh;
     font-weight: normal;
 }

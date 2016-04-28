@@ -5,6 +5,7 @@
     <meta charset = "utf-8">
     <meta name="Description" content="Услуги по созданию сайтов: под ключ, верстка по макету, улучшение и адаптация существующего дизайна, настройка CMS (Joomla, WordPress, Prestashop), а так же консультации и обучение веб-технологиям с помощью доступных в интернете ресурсов.">
     <meta name="Keywords" content="Создание сайтов, web development, под ключ, сайт, блог, интернет магазин, интернет, электронная коммерция, дизайн, CMS, joomla, wordpress, prestashop, design, html, javascript, js, scrollmagic, php, css, обучение, study, learning, consult, консультации, веб, web, website, веб-сайт, оптимизация, optimization, верстка, html-development, макет">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link rel = "stylesheet" type = "text/css" href = "css/mainstyle.css">
    <!--bootstrap <link rel = "stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
     <script type = "text/javascript" src = "libraries/jquery-2.2.3.min.js"></script>
