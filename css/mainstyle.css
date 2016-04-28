@@ -325,3 +325,77 @@ section.one.nofull::after {
     -o-transition: box-shadow 1s; /* Opera */
     transition: box-shadow 1s;
 }
+
+/*------------------------------SECTION 2---------------------*/
+/*-----------------------------layout ------------------------*/
+
+section.two {
+    height: 120vh;
+}
+
+.container-2 {
+    color: white;
+    justify-content: center;
+    width: 45vh;
+    margin: auto;
+    
+}
+
+/*-----------------------------Design----------------------------*/
+
+.container-2 h1 {
+    font-size: 16vh;
+    font-weight: bold;
+    font-family:  'Bebas Neye', sans-serif; 
+}
+.container-2 h2 {
+    font-size: 12vh;
+    font-weight: normal;
+    font-family:  'Bebas Neye', sans-serif; 
+}
+.container-2 h3 {
+    font-size: 9vh;
+    font-weight: normal;
+    font-family:  'Bebas Neye', sans-serif; 
+}
+.container-2 h4 {
+    font-size: 5vh;
+    text-align: left;
+    color: #c1c3ff;
+    line-height: 5vh;
+    width: 90%;
+    font-family:  sans-serif; 
+    line-height: 6vh;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neye';
+    src: url('../fonts/BebasNeue regular.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+/*-----------------------------rainbow line------------------*/
+
+.hr-item {
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ff3535 0%, #ffb22d 19%, #f7df00 37%, #26ff6c 56%, #268bff 76%, #8b3cff 100%) repeat scroll 0 0;
+    border: medium none;
+    height: 1px;
+    margin: 4vh 0 4vh -2vw;
+    width: 30vw;
+}
+
+/*--------------------------------Section 2 animation-----------------*/
+
+
+.line {
+    opacity: 0;
+    transition: all 0.5s;
+    
+    
+}
+
+.line-active {
+    transform: translate(10vh, -5vh) scale(1.1);
+    opacity: 1;
+}

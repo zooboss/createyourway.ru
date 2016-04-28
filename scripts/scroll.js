@@ -1,44 +1,33 @@
-/*$(function() {
-  
-    var controller = new ScrollMagic.Controller({
-        globalSceneOptions: {
-            triggerHook: 'onLeave'
-            
-        }
-    });
-    
-    var slides = document.querySelectorAll("section.scene");
-    
-    for (var i=0; i < slides.length; i++)
-        {
-            new ScrollMagic.Scene({
-                triggerElement: slides[i]
-                
-            })
-            
-            .setPin(slides[i])
-            .addIndicators()
-            .addTo(controller);
-        }
-    
-   
-});
-
-*/
-
 $(function(){
     var controller = new ScrollMagic.Controller({
         globalSceneOptions: {
-            triggerHook: 'onLeave'
+            triggerHook: 0.8
+            
         }
     });
     
-     var sitename = new ScrollMagic.Scene({
-        triggerElement: ".sitename", duration: 200
+     var container = new ScrollMagic.Scene({
+        triggerElement: ".line-1"
     })
-    .setClassToggle(".sitename", "highlight")
-    .addIndicators()
+    .setClassToggle(".line-1", "line-active")
     .addTo(controller);
   
+    var container = new ScrollMagic.Scene({
+        triggerElement: ".line-2"
+    })
+    .setClassToggle(".line-2", "line-active")
+    .addTo(controller);
+    
+    var container = new ScrollMagic.Scene({
+        triggerElement: ".line-3"
+    })
+    .setClassToggle(".line-3", "line-active")
+    .addTo(controller);
+    
+    var container = new ScrollMagic.Scene({
+        triggerElement: ".line-4"
+    })
+    .setClassToggle(".line-4", "line-active")
+    .addTo(controller);
   
 }) 
