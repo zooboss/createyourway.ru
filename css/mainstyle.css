@@ -330,6 +330,7 @@ section.one.nofull::after {
 
 section.two {
     height: 120vh;
+    
 }
 
 .container-2 {
@@ -398,3 +399,23 @@ section.two {
     transform: translate(10vh, -5vh) scale(1.1);
     opacity: 1;
 }
+
+/*------------------------------Section 2 shape-------------------------*/
+section.two::after {
+    position: absolute;
+    content: " ";
+    bottom: -132vh;
+    width: 0; 
+    height: 0; 
+    border-top: 6vw solid black;
+    border-right: 99vw solid transparent;
+    
+}
+
+/*--------------------------------SECTION THREE--------------------------------*/
+/*-----------------------------------Layout-------------------------------*/
+
+
+
+
+
