@@ -40,6 +40,8 @@ $(document).ready(function()
             $(".button").addClass("click")
             $(".sitename").removeClass("click-end");
             $(".sitename").addClass("click");
+            $("section.one").addClass("full");
+            $("section.one").removeClass("nofull");
             
         }
         else
@@ -48,6 +50,8 @@ $(document).ready(function()
             $(".button").addClass("click-end");
             $(".sitename").removeClass("click");
             $(".sitename").addClass("click-end");
+            $("section.one").removeClass("full");
+            $("section.one").addClass("nofull");
         }
     
        clicks++;
