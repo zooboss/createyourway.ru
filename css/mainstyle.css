@@ -156,10 +156,10 @@ section.one::after {
     background-size: cover;
     animation: slide 60s linear infinite;
     
-    -webkit-box-shadow: 0px 0px 5px 4px black;
-    -moz-box-shadow: 0px 0px 5px 4px black;
-    box-shadow: 0px 0px 5px 4px black;
-    
+    -webkit-box-shadow: 0px 0px 6px 4px black;
+    -moz-box-shadow: 0px 0px 6px 4px black;
+    box-shadow: 0px 0px 6px 4px black;
+    border: 1px solid black;
     transform: scale(0);
     opacity: 0;
     
