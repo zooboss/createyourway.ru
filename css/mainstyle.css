@@ -123,8 +123,8 @@ section.three{
     width: 5em;
     background-color: rgba(100,100,100,0.5);
     border-radius: 50%;
-    box-shadow: 0px 0px 5px 4px black;
-    box-shadow: inset 0px 0px 3px 2px white;
+    box-shadow: 0px 0px 5px 5px black;
+    /*box-shadow: inset 0px 0px 3px 2px white; */
     
     transition: all 1s;
     
@@ -143,24 +143,31 @@ section.three{
 
 .button-highlight
 {
-    -webkit-box-shadow: 0px 0px 5px 4px white;
-    -moz-box-shadow: 0px 0px 5px 4px white;
-    box-shadow: 0px 0px 5px 4px white;
+    -webkit-box-shadow: 0px 0px 5px 5px white;
+    -moz-box-shadow: 0px 0px 5px 5px white;
+    box-shadow: 0px 0px 5px 5px white;
+    
     -moz-transition: box-shadow 1s; /* Firefox */
     -webkit-transition: box-shadow 1s; /* Safari and Chrome */
     -o-transition: box-shadow 1s; /* Opera */
     transition: box-shadow 1s;
     
+    -webkit-transform: scale(1.2) rotate(180deg);
+    -moz-transform: scale(1.2) rotate(180deg);
     transform: scale(1.2) rotate(180deg);
+    
+    -moz-transition: transform 1s; /* Firefox */
+    -webkit-transition: transform 1s; /* Safari and Chrome */
+    -o-transition: transform 1s; /* Opera */
     transition: transform 1s;
     
     
 }
 .button-highlight-end
 {
-    -webkit-box-shadow: 0px 0px 5px 4px black;
-    -moz-box-shadow: 0px 0px 5px 4px black;
-    box-shadow: 0px 0px 5px 4px black;
+    -webkit-box-shadow: 0px 0px 5px 5px black;
+    -moz-box-shadow: 0px 0px 5px 5px black;
+    box-shadow: 0px 0px 5px 5px black;
     -moz-transition: box-shadow 1s; /* Firefox */
     -webkit-transition: box-shadow 1s; /* Safari and Chrome */
     -o-transition: box-shadow 1s; /* Opera */
@@ -170,7 +177,17 @@ section.three{
     transition: transform 1s;
 }
 
+/*------------------------section 1 button amd menu click------------*/
 
+.click {
+    transform: translateY(-30vh);
+    transition: transform 2.5s;
+    
+}
+.click-end {
+    
+    transition: transform 2s;
+}
 
 
 
