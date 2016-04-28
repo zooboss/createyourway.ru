@@ -119,14 +119,12 @@ section.three{
     justify-content: center;
     align-items: center;
     border: 2px solid gray;
-    opacity: 0.4;
+    opacity: 0.7;
     height: 5em;
     width: 5em;
     background-color: rgba(100,100,100,0.5);
     border-radius: 50%;
-    box-shadow: 0px 0px 5px 5px black;
-    /*box-shadow: inset 0px 0px 3px 2px white; */
-    
+    box-shadow: 0px 0px 7px 5px black;
     transition: all 1s;
     
     
@@ -138,6 +136,7 @@ section.three{
     width: 2.3em;
     height: 2.3em;
     transform: rotate(45deg) translate(-15%, -15%);
+    
     
 }
 
