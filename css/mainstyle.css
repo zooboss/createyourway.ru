@@ -445,6 +445,24 @@ section.three > .container {
     color: #e1e3ff;
 }
 
+/*-----------------------------section 3 background text-------------------------------*/
+
+section.three::after {
+    content: "ПРОЦЕСС";
+    position: absolute;
+    right: 96vw;
+    margin-top: -90vh;
+    
+    transform-origin: right top;
+    transform: rotate(-90deg);
+    
+    opacity: 0.2;
+    font-family: "Bebas neue", sans-serif;
+    font-weight: bold;
+    color: lightblue;
+    font-size: 32vh;
+    z-index: 2;
+}
 
 /*------------------------------hightlight effect on hover via script-main.js for section 2*/
 
@@ -460,7 +478,3 @@ section.three > .container {
 .hidden-ul {
     transform: translateX(30vh);
 }
-
-
-
-
