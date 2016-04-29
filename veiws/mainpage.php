@@ -60,26 +60,28 @@
         
         <section class="scene three">
             <div class = "container">
-                <div class = "container container-left">
-                    <div class = "item sub-service">
-                        <div class = "desc">
-                            <h1><strong>Предварительный этап</strong></h1>
+                <div class = "container-left">
+                    <div class = "item">
+                        <div class="desc">
+                            <p>B</p>
+                            <h1><strong>Подготовка</strong></h1>
                         </div>
                     </div>
-                    <div class = "item sub-service">
-                        <div class = "desc">
-                            <h1><strong>Создание дизайна</strong></h1>
+                    <div class = "item">
+                        <div class="desc">
+                            <p>C</p>
+                            <h1><strong>Дизайн</strong></h1>
                         </div>
                     </div>
-                    <div class = "item sub-service">
-                        <div class = "desc">
+                    <div class = "item">
+                        <div class="desc">
+                            <p>D</p>
                             <h1><strong>Интеграция</strong></h1>
                         </div>
                     </div>
-                    
-                    
                 </div>
-                <div class = "container container-right">
+                
+                <div class = "container-right">
                     <div class = "explane">
                         <ul>
                             <li><h2>изучение</h2></li>

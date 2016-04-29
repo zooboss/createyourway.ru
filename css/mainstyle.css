@@ -15,10 +15,11 @@ section {
     background-repeat: no-repeat;
     background-position: center; 
     /*background-attachment:fixed; */
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
+    max-width: 100%;
     
     
 }
@@ -39,10 +40,7 @@ section.one::before{
 }
 
 
-section.three{
-    background-image: url("../images/background2.jpg");
-    
-}
+
 /*------------------------------Layout settings*/
 .container, .container-top ,.container-center, .container-bottom {
     display: flex;
@@ -263,17 +261,17 @@ section.two {
 .container-2 h1 {
     font-size: 16vh;
     font-weight: bold;
-    font-family:  'Bebas Neye', sans-serif; 
+    font-family:  'Bebas Neue', sans-serif; 
 }
 .container-2 h2 {
     font-size: 12vh;
     font-weight: normal;
-    font-family:  'Bebas Neye', sans-serif; 
+    font-family:  'Bebas Neue', sans-serif; 
 }
 .container-2 h3 {
     font-size: 9vh;
     font-weight: normal;
-    font-family:  'Bebas Neye', sans-serif; 
+    font-family:  'Bebas Neue', sans-serif; 
 }
 .container-2 h4 {
     font-size: 4vh;
@@ -287,7 +285,7 @@ section.two {
 }
 
 @font-face {
-    font-family: 'Bebas Neye';
+    font-family: 'Bebas Neue';
     src: url('../fonts/BebasNeue regular.otf');
     font-weight: normal;
     font-style: normal;
@@ -321,74 +319,99 @@ section.two {
 section.two::after {
     position: absolute;
     content: " ";
-    bottom: -126vh;
+    bottom: -126.9vh;
     width: 0; 
     height: 0; 
-    border-top: 6vh solid black;
-    border-right: 99vw solid transparent;
+    border-top: 7vh solid black;
+    border-right: 98.7vw solid transparent;
+   
     
 }
 
 /*--------------------------------SECTION THREE--------------------------------*/
+
+/*---------------section 3 background------------------------------------------*/
+
+section.three {
+    background: linear-gradient(359deg, #3b3064, #64b3ee);
+    background-size: 400% 400%;
+
+    -webkit-animation: BackgroundAnimate1 15s ease infinite;
+    -moz-animation: BackgroundAnimate1 15s ease infinite;
+    animation: BackgroundAnimate1 15s ease infinite;
+    
+    height: 110vh;
+}
+
+@-webkit-keyframes BackgroundAnimate1 {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@-moz-keyframes BackgroundAnimate1 {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+@keyframes BackgroundAnimate1 {
+    0%{background-position:50% 0%}
+    50%{background-position:51% 100%}
+    100%{background-position:50% 0%}
+}
+
+
+
 /*-----------------------------------Layout-------------------------------*/
 
-.container-center {
-    
-    
+section.three > .container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 5vh;
+}
+
+.container-left {
+    border: 1px solid black;
+}
+
+.container-right {
+    border: 1px solid black;
     
 }
+
+.container-right ul {
+    list-style: none;
+}
+
+/*-----------------------------Section 3 Left part design--------------------------*/
 
 .item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    min-width: 160px;
-    min-height: 130px;
-    height: 20vh;
-    width: 12vw;
-    border-radius: 10px;
-    background-color: rgba(15, 32, 44, 0.3);
-    border: 1px solid black;
-    -webkit-box-shadow: 0px 0px 55px 4px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 0px 55px 4px rgba(0,0,0,1);
-    box-shadow: 0px 0px 55px 4px rgba(0,0,0,1);
-}
-
-/*------------------------------section 2 central block settings*/
-
-.main-service {
-    height: 30vh;
-    width: 18vw;
-    min-width: 240px;
-    min-height: 205px;
+    justify-content: space-between;
+        
+    height: 25vh;
+    width: 25vh;
+    border-radius: 50%;
+    border: 3px solid white;
     
-}
-
-/*------------------------------section 2 sub-items settings*/
-
-.container-top .sub-service, .container-bottom .sub-service {
-    margin: 0 10%;
-}
-
-/*------------------------------section 2 text settings*/
-
-.desc {
-    font-size: 1.4rem;
-    font-family: 'Comic Sans MS';
-    color: lightblue;
-    justify-content: center;
-    align-self: center;
-    text-shadow: 4px 2px 4px rgba(84, 133, 172, 1);
-    
-}
-.main-service .desc {
-    font-size: 2rem;
-    
-}
-
-.desc p{
     text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-bottom: 5vh;
+    font-weight: normal;
 }
+
+.desc p {
+    font-family: 'Glyphter';
+    font-size: 2.2em;
+    margin-top: 37%;
+}
+
+
+
 
 /*------------------------------hightlight effect on hover via script-main.js for section 2*/
 
