@@ -1,20 +1,46 @@
 $(document).ready(function()
 {
-    /*--------------------------Section 2 hover effects---------------------*/
+    /*--------------------------Section 3 hover effects---------------------*/
     $(".item").hover(function()
     {
+        //highlight effect on left side
+        
         var $p = $(this).find("p");
-        $($p).stop(true, true).effect('drop',{direction:"up"}, 500);
-        $(this).removeClass("highlight-end");
+        $($p).addClass("highlight-icon");
         $(this).addClass("highlight");
+        
+        //hide all right side elements
+        
+        $(".container-right ul").addClass("hidden-ul");
+        
+        //activate actual right side element
+        
+        if ($(this).hasClass("item-1")){
+                $(".container-right ul:nth-of-type(1)").removeClass("hidden-ul");
+                  
+        }
+        
+        if ($(this).hasClass("item-2")){
+                $(".container-right ul:nth-of-type(2)").removeClass("hidden-ul");
+                  
+        }
+        
+        if ($(this).hasClass("item-3")){
+                $(".container-right ul:nth-of-type(3)").removeClass("hidden-ul");
+                  
+        }
+            
     },
-    function()
-    {
+    function(){
+        
+        //remove highlight effect on mouseleave
+        
         var $p = $(this).find("p");
-        $($p).stop(true, true).show('drop',{direction:"up"}, 500);
+        $($p).removeClass("highlight-icon");
         $(this).removeClass("highlight");
-        $(this).addClass("highlight-end");
-    });
+    }                
+                    
+    );
   
     /*--------------------------Section 1 button effects---------------------*/    
     $(".button").hover(function()

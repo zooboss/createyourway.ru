@@ -61,19 +61,19 @@
         <section class="scene three">
             <div class = "container">
                 <div class = "container-left">
-                    <div class = "item">
+                    <div class = "item item-1">
                         <div class="desc">
                             <p>B</p>
                             <h1><strong>Подготовка</strong></h1>
                         </div>
                     </div>
-                    <div class = "item">
+                    <div class = "item item-2">
                         <div class="desc">
                             <p>C</p>
                             <h1><strong>Дизайн</strong></h1>
                         </div>
                     </div>
-                    <div class = "item">
+                    <div class = "item item-3">
                         <div class="desc">
                             <p>D</p>
                             <h1><strong>Интеграция</strong></h1>
@@ -91,7 +91,7 @@
                     </ul>
                     
                     
-                    <ul>
+                    <ul class="hidden-ul">
                         <li><h2>образ</h2></li>
                         <li><h2>архитектура</h2></li>
                         <li><h2>детализация</h2></li>
@@ -99,7 +99,7 @@
                     </ul>
                     
                     
-                    <ul>
+                    <ul class="hidden-ul">
                         <li><h2>верстка</h2></li>
                         <li><h2>разработка</h2></li>
                         <li><h2>тестирование</h2></li>
