@@ -8,7 +8,7 @@ $(document).ready(function()
         var $p = $(this).find("p");
         $($p).addClass("highlight-icon");
         $(this).addClass("highlight");
-        
+        $(this).effect('highlight',{color: "#283553"}, 500);
         //hide all right side elements
         
         $(".container-right ul").addClass("hidden-ul");

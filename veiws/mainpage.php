@@ -64,7 +64,7 @@
                     <div class = "item item-1">
                         <div class="desc">
                             <p>B</p>
-                            <h1><strong>Подготовка</strong></h1>
+                            <h1><strong>План</strong></h1>
                         </div>
                     </div>
                     <div class = "item item-2">
