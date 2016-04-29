@@ -60,50 +60,48 @@
         
         <section class="scene three">
             <div class = "container">
-                <div class = "container-top">
+                <div class = "container container-left">
                     <div class = "item sub-service">
                         <div class = "desc">
-                            <p>Настройка CMS</p>
+                            <h1><strong>Предварительный этап</strong></h1>
                         </div>
                     </div>
                     <div class = "item sub-service">
                         <div class = "desc">
-                            <p>Верстка страниц по макету</p>
+                            <h1><strong>Создание дизайна</strong></h1>
                         </div>
                     </div>
-                        
-                </div>
-                <div class = "container-center">
                     <div class = "item sub-service">
                         <div class = "desc">
-                            <p>Консультация и обучение</p>
-                        </div>
-                    </div>
-                    <div class = "item main-service">
-                        <div class = "desc">
-                            <p>Создание уникального сайта с нуля</p>
+                            <h1><strong>Интеграция</strong></h1>
                         </div>
                     </div>
                     
-                        
                     
-                    <div class = "item sub-service">
-                        <div class = "desc">
-                            <p>Создание дизайна</p>
-                        </div>
-                    </div>
                 </div>
-                <div class = "container-bottom">
-                    <div class = "item sub-service">
-                        <div class = "desc">
-                            <p>Мобильные версии</p>
-                        </div>
+                <div class = "container container-right">
+                    <div class = "explane">
+                        <ul>
+                            <li><h2>изучение</h2></li>
+                            <li><h2>планирование</h2></li>
+                            <li><h2>стратегия</h2></li>
+                            <li><h2>каркас</h2></li>
+                        </ul>
+                        <ul>
+                            <li><h2>образ</h2></li>
+                            <li><h2>архитектура</h2></li>
+                            <li><h2>детализация</h2></li>
+                            <li><h2>шлифовка</h2></li>
+                        </ul>
+                        <ul>
+                            <li><h2>верстка</h2></li>
+                            <li><h2>разработка</h2></li>
+                            <li><h2>тестирование</h2></li>
+                            <li><h2>запуск</h2></li>
+                        </ul>
                     </div>
-                    <div class = "item sub-service" >
-                        <div class = "desc">
-                            <p>Придание динамичности</p>
-                        </div>
-                    </div>
+                
+                
                 </div>
             </div>
             
