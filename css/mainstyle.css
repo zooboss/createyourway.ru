@@ -457,7 +457,7 @@ section.three::after {
     transform-origin: right top;
     transform: rotate(-90deg);
     
-    opacity: 0.2;
+    opacity: 0.15;
     font-family: "Bebas neue", sans-serif;
     font-weight: bold;
     color: lightblue;
@@ -478,4 +478,11 @@ section.three::after {
 
 .hidden-ul {
     transform: translateX(30vh);
+}
+
+
+/*-------------------------------SECTION 4-------------------------------------------*/
+
+section.four {
+    background: lightblue;
 }
