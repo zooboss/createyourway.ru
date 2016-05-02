@@ -608,7 +608,7 @@ section.four .container-row:first-child {
     bottom: -31vh;
     z-index: 100;
     height: 36vh;  
-    transition: all 2s;
+    transition: all 1s;
 }
 
 .desc-sell p{
@@ -651,7 +651,7 @@ section.four .container-row:first-child {
 /*-------------------------------Section 4 button move---------------------------*/
 
 .move-sell {
-    transform: translateY(-32vh);
+    transform: translateY(-31vh);
 }
 
 /*---------------------------------text background for section 4----------------*/
