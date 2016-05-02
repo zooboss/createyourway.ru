@@ -112,21 +112,27 @@
         
         <section class="scene four">
             <div class="container">
-                <div class="item-sell">
-                    <div class="desk-sell">Сайт-визитка</div>
+                <div class="container-row">
+                    <div class="item-sell">
+                        <div class="desk-sell">Сайт-визитка</div>
+                    </div>                
+                    <div class="item-sell">
+                        <div class="desk-sell">Блог</div>
+                    </div>
                 </div>
-                <div class="item-sell">
-                    <div class="desk-sell">Блог</div>
+                <div class="container-row">
+                    <div class="item-sell">
+                        <div class="desk-sell">Интернет-магазин</div>
+                    </div>
+                    <div class="item-sell">
+                        <div class="desk-sell">Уникальный дизайн</div>
+                    </div>  
                 </div>
-                <div class="item-sell">
-                    <div class="desk-sell">Интернет-магазин</div>
-                </div>
-                <div class="item-sell">
-                    <div class="desk-sell">Уникальный дизайн</div>
-                </div>            
             </div>
         </section>
         
+        <section class="section five">
+        </section>
         
     
     

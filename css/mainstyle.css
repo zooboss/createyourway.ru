@@ -483,6 +483,33 @@ section.three::after {
 
 /*-------------------------------SECTION 4-------------------------------------------*/
 
+/*---------------------------layout and background---------------------*/
 section.four {
-    background: lightblue;
+    border-top: 3px solid black;
+    background: white;
+}
+
+section.four .container {
+    flex-direction: column;
+    justify-content: space-around;
+   
+    height: 100%;
+    border: 1px solid black;
+}
+
+section.four .container-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+
+/*----------------------------------------item settings---------------------*/
+
+.item-sell {
+    border: 1px solid black;
+    
+    width: 36vh;
+    height: 36vh;
+    border-radius: 15px;
 }
