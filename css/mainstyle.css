@@ -522,14 +522,55 @@ section.four .container-row:first-child {
 /*----------------------------------------item settings---------------------*/
 
 .item-sell {
-    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
     
-    width: 36vh;
+    width: 54vh;
     height: 36vh;
     border-radius: 15px;
     
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    -webkit-box-shadow: 0px 0px 3px 3px black;
+    -moz-box-shadow: 0px 0px 3px 3px black;
+    box-shadow: 0px 0px 3px 3px black;
 }
+
+.item-sell::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+    width: 54vh;
+    height: 36vh;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    opacity: 0.85;
+}
+
+.container-row:first-child .item-sell:nth-of-type(1)::before {
+    background-image: url("../images/images-sell/visit.jpg");
+}
+
+.container-row:first-child .item-sell:nth-of-type(2)::before {
+    background-image: url("../images/images-sell/blog.jpg");
+}
+
+.container-row:last-child .item-sell:nth-of-type(1)::before {
+    background-image: url("../images/images-sell/shop.jpg");
+}
+
+.container-row:last-child .item-sell:nth-of-type(2)::before {
+    background-image: url("../images/images-sell/unic.jpg");
+}
+
+
+
 
