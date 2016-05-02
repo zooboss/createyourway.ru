@@ -86,13 +86,16 @@ $(document).ready(function()
     var clicksSell = 0;
     $(".desc-sell").click(function()
     {
+        var $b = $(this).parent(".item-sell");
         if (clicksSell % 2 == 0)
         {
             $(this).addClass("move-sell");
+            $($b).addClass("bg-move-sell");
         }
         else
         {
             $(this).removeClass("move-sell");
+            $($b).removeClass("bg-move-sell");
         }
     
        clicksSell++;
