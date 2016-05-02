@@ -509,6 +509,7 @@ section.four .container-row {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    
 }
 
 section.four .container-row:first-child {
@@ -531,7 +532,7 @@ section.four .container-row:first-child {
     
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     
     -webkit-box-shadow: 0px 0px 3px 3px black;
     -moz-box-shadow: 0px 0px 3px 3px black;
@@ -553,6 +554,7 @@ section.four .container-row:first-child {
     background-position: center;
     
     opacity: 0.85;
+    
 }
 
 .container-row:first-child .item-sell:nth-of-type(1)::before {
@@ -570,6 +572,48 @@ section.four .container-row:first-child {
 .container-row:last-child .item-sell:nth-of-type(2)::before {
     background-image: url("../images/images-sell/unic.jpg");
 }
+
+
+/*----------------------------------------desc-sell settings---------------------*/
+
+.desc-sell {
+    position: relative;
+    font-weight: bold;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.desc-sell span{
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    width: 54vh;
+    border-top: 2px solid black;
+    border-bottom: 1px solid grey;
+    padding: 2px 0px 2px 0px;
+    
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3vh;
+    
+}
+
+.desc-sell::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 40vh;
+    width: 60vh;
+    background: lightgrey;
+
+    opacity: 0.6;
+    filter: blur(1px);
+    
+    
+    
+}
+
 
 
 
