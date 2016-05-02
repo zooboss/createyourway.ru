@@ -63,7 +63,7 @@ $(document).ready(function()
         if (clicks % 2 == 0)
         {
             $(".button").removeClass("click-end");
-            $(".button").addClass("click")
+            $(".button").addClass("click");
             $(".sitename").removeClass("click-end");
             $(".sitename").addClass("click");
             $("section.one").addClass("full");
@@ -82,6 +82,21 @@ $(document).ready(function()
     
        clicks++;
     });
-     
+    
+    var clicksSell = 0;
+    $(".desc-sell").click(function()
+    {
+        if (clicksSell % 2 == 0)
+        {
+            $(this).addClass("move-sell");
+        }
+        else
+        {
+            $(this).removeClass("move-sell");
+        }
+    
+       clicksSell++;
+    });
+    
     
 });

@@ -114,18 +114,23 @@
             <div class="container">
                 <div class="container-row">
                     <div class="item-sell">
-                        <div class="desc-sell"><span>сайт-визитка</span></div>
+                        <div class="desc-sell">
+                            <p>▲ сайт-визитка ▲</p>
+                            <p>1500 рублей</p>
+                            <p>1 - 3 страницы</p>
+                            <p>хостинг и домен в подарок</p>
+                        </div>
                     </div>                
                     <div class="item-sell">
-                        <div class="desc-sell"><span>блог</span></div>
+                        <div class="desc-sell"><p>▲ блог ▲</p></div>
                     </div>
                 </div>
                 <div class="container-row">
                     <div class="item-sell">
-                        <div class="desc-sell"><span>интернет-магазин</span></div>
+                        <div class="desc-sell"><p>▲ интернет-магазин ▲</p></div>
                     </div>
                     <div class="item-sell">
-                        <div class="desc-sell"><span>нестандартный стиль</span></div>
+                        <div class="desc-sell"><p>▲ индивидуальный дизайн ▲</p></div>
                     </div>  
                 </div>
             </div>

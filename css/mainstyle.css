@@ -361,7 +361,6 @@ section.three {
 }
 
 
-
 /*-----------------------------------Layout-------------------------------*/
 
 section.three > .container {
@@ -422,10 +421,19 @@ section.three > .container {
     font-weight: normal;
 }
 
+
 .desc p {
     font-family: 'Glyphter';
     font-size: 4vh;
     margin-top: 9.8vh;
+}
+
+.desc p:hover {
+    cursor: default;
+}
+
+.item:hover {
+    cursor: default;
 }
 
 /*--------------------------------Section 2 right side design-------------------------*/
@@ -446,6 +454,10 @@ section.three > .container {
     color: #e1e3ff;
 }
 
+.container-right ul h2:hover {
+    cursor: default;
+}
+
 /*-----------------------------section 3 background text-------------------------------*/
 
 section.three::after {
@@ -463,6 +475,10 @@ section.three::after {
     color: lightblue;
     font-size: 32vh;
     z-index: 2;
+}
+
+section.three:hover:after {
+    cursor: default;
 }
 
 /*------------------------------hightlight effect on hover via script-main.js for section 2*/
@@ -497,6 +513,15 @@ section.four {
     background: linear-gradient(to bottom, rgba(65,101,155,1) 0%, rgba(65,101,155,1) 14%, rgba(212,231,236,1) 100%);
     
     height: 120vh;
+    
+    position: relative;
+    z-index: 0;
+    
+    overflow: hidden;
+}
+
+section.four:hover {
+    cursor: default;
 }
 
 section.four .container {
@@ -537,6 +562,7 @@ section.four .container-row:first-child {
     -webkit-box-shadow: 0px 0px 3px 3px black;
     -moz-box-shadow: 0px 0px 3px 3px black;
     box-shadow: 0px 0px 3px 3px black;
+    
 }
 
 .item-sell::before {
@@ -577,28 +603,33 @@ section.four .container-row:first-child {
 /*----------------------------------------desc-sell settings---------------------*/
 
 .desc-sell {
-    position: relative;
-    font-weight: bold;
-    z-index: 10;
-    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: -31vh;
+    z-index: 100;
+    height: 36vh;  
+    transition: all 2s;
 }
 
-.desc-sell span{
+.desc-sell p{
     display: block;
     position: relative;
-    z-index: 100;
+    z-index: 0;
     text-align: center;
     width: 54vh;
-    border-top: 2px solid black;
-    border-bottom: 1px solid grey;
-    padding: 2px 0px 2px 0px;
+    line-height: 5vh;
     
+    font-weight: bold;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 3vh;
-    
 }
 
-.desc-sell::before {
+.desc-sell p:first-child{
+    border-top: 2px solid black;
+    border-bottom: 1px solid grey;
+}
+
+.desc-sell::after {
     content: "";
     position: absolute;
     top: 0px;
@@ -606,14 +637,44 @@ section.four .container-row:first-child {
     height: 40vh;
     width: 60vh;
     background: lightgrey;
-
-    opacity: 0.6;
-    filter: blur(1px);
-    
-    
+    z-index: -1;
+    opacity: 0.7;
     
 }
 
+.desc-sell:hover {
+    cursor: pointer;
+    
+}
+
+
+/*-------------------------------Section 4 button move---------------------------*/
+
+.move-sell {
+    transform: translateY(-32vh);
+}
+
+/*---------------------------------text background for section 4----------------*/
+
+section.four::after {
+    content: "УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ УСЛУГИ";
+    position: absolute;
+    top: -100vh;
+    right: -100vw;
+    width: 150vw;
+    
+    word-wrap: normal;
+    transform-origin: left top;
+    transform:rotate(45deg);
+    
+    opacity: 0.1;
+    font-family: "Bebas neue", sans-serif;
+    font-weight: bold;
+    color: lightblue;
+    font-size: 16vh;
+    z-index: -1;
+   
+}
 
 
 
