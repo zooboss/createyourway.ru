@@ -502,7 +502,7 @@ section.three:hover:after {
 /*---------------------------layout and background---------------------*/
 section.four {
     border-top: 3px solid black;
-    border-bottom: 0px;
+    border-bottom: 1px solid #D3E6EB;
     background: white;
     
     background: rgba(65,101,155,1);
@@ -698,6 +698,7 @@ section.five {
     background: -o-linear-gradient(top, rgba(212,231,236,1) 0%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
     background: -ms-linear-gradient(top, rgba(212,231,236,1) 0%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
     background: linear-gradient(to bottom, rgba(212,231,236,1) 0%, rgba(255,255,255,1) 59%, rgba(255,255,255,1) 100%);
+    
     
 }
 
