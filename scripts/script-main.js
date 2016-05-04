@@ -111,5 +111,18 @@ $(document).ready(function()
         clicksSell[indexRow][indexCol]++;       
     });
     
+/*-----------------------section 5 focus event----------------------------*/
+    
+    $(".form-item").focus(function(){
+        var $scene = $(this).parent(".five");
+        $(".five").addClass("dark");
+        $(".container-left-sell h1").addClass("notextshadow");
+    });
+     $(".form-item").focusout(function(){
+        var $scene = $(this).parent(".five");
+        $(".five").removeClass("dark");
+         $(".container-left-sell h1").removeClass("notextshadow");
+    });
+    
     
 });

@@ -175,7 +175,7 @@
             </div>
         </section>
         
-        <section class="section five">
+        <section class="scene five">
             <div class="container">
                 <div class="container-left-sell">
                     <h1>Свяжитесь</h1>
@@ -187,15 +187,16 @@
                         <input type = "text" placeholder = "Ваш email" name = "mail_contact" class = "form-item"><br>
                         <input type = "text" placeholder = "Тема"      name = "mail_subject"  class = "form-item"><br>
                         <textarea class = "mail_text form-item" placeholder = "Чем мы можем помочь?"></textarea><br>
-                        <input type = "submit" value = "Proceed" class="form-submit">
+                        <input type = "submit" value = "Отправить" class="form-item form-submit">
                     </form>
-                </div>
-            
-            
-            
+                </div>           
             </div>
         </section>
-        
+        <footer>
+            <div class="container">
+                <h1> Footer </h1>
+            </div>
+        </footer>
     
     
     
