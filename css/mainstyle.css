@@ -721,5 +721,73 @@ section.five {
 section.five .container {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
+    border: 1px solid black;
 }
+
+/*-------------------------------section 5 container left-------------------------*/
+
+.five .container-left-sell {
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 8vh;
+    color: cadetblue;
+    text-shadow: 0 0 3px grey;
+    
+    text-align: right;
+    
+    padding-top: 10vh;
+    width: 40%;
+    
+    border: 1px solid red;
+}
+
+.five .container-left-sell h1 {
+    padding-right: 1vw;
+    border: 2px solid green;
+}
+
+/*------------------------------section 5 container right----------------------------*/
+
+.five .container-right-sell {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 10vh;
+    
+    width: 60%;
+}
+
+/*------------------------------form settings---------------------------------*/
+
+.five .container-right-sell form {
+    padding-left: 1vw;
+}
+
+.form-item {
+    border: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 0.5vw;
+    height: 8vh;
+    width: 40vw;
+    margin-bottom: 3vh;
+    
+    font-family: "Comic Sans ms", sans-serif;
+    font-size: 3.5vh;
+}
+
+.mail_text {
+    height: 40vh;
+    font-size: 2.5vh;
+    resize: none;
+}
+
+form:active ~ section.five {
+    filter: brightness(50%);
+}
+
+
+
 

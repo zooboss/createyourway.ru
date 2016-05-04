@@ -177,13 +177,18 @@
         
         <section class="section five">
             <div class="container">
-                <div class="container-left">
-                    Свяжитесь с нами!
+                <div class="container-left-sell">
+                    <h1>Свяжитесь</h1>
+                    <h1>c нами!</h1>
                 </div>
-                <div class="container-right">
-                    <form>
+                <div class="container-right-sell">
+                    <form action = "index.php?action=email" method = "post">
+                        <input type = "text" placeholder = "Ваше имя"  name = "mail_name"     class = "form-item"> <br>
+                        <input type = "text" placeholder = "Ваш email" name = "mail_contact" class = "form-item"><br>
+                        <input type = "text" placeholder = "Тема"      name = "mail_subject"  class = "form-item"><br>
+                        <textarea class = "mail_text form-item" placeholder = "Чем мы можем помочь?"></textarea><br>
+                        <input type = "submit" value = "Proceed" class="form-submit">
                     </form>
-                
                 </div>
             
             
