@@ -83,27 +83,32 @@ $(document).ready(function()
        clicks++;
     });
     
-/*----------------------------section 4 animation on click--------------------*/    
-    
-    var clicksSell = 0;
+/*----------------------------section 4 animation on click--------------------*/  
+    // own clicks check for each item
+    // clicks indicator for hitml structure with two rows and two elements in each
+    var clicksSell = [[0, 0], [0, 0]];
     $(".desc-sell").click(function()
     {
+        //finds some elements
+        var $b         = $(this).parent(".item-sell");
+        var $row       = $($b).parent(".container-row");
+        //get current element indexes
+        var indexCol   = $($b).index();
+        var indexRow   = $($row).index();
         
-        var $b = $(this).parent(".item-sell");
-        if (clicksSell % 2 == 0)
+        //check for add or remove class
+        if (clicksSell[indexRow][indexCol] % 2 == 0)
         {
             $(this).addClass("move-sell");
             $($b).addClass("bg-move-sell");
-            clicksSell++;
         }
         else
         {
             $(this).removeClass("move-sell");
             $($b).removeClass("bg-move-sell");
-            clicksSell = 0;
         }
-    
-       
+        //editing value with current indexes
+        clicksSell[indexRow][indexCol]++;       
     });
     
     
