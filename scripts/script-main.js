@@ -83,22 +83,27 @@ $(document).ready(function()
        clicks++;
     });
     
+/*----------------------------section 4 animation on click--------------------*/    
+    
     var clicksSell = 0;
     $(".desc-sell").click(function()
     {
+        
         var $b = $(this).parent(".item-sell");
         if (clicksSell % 2 == 0)
         {
             $(this).addClass("move-sell");
             $($b).addClass("bg-move-sell");
+            clicksSell++;
         }
         else
         {
             $(this).removeClass("move-sell");
             $($b).removeClass("bg-move-sell");
+            clicksSell = 0;
         }
     
-       clicksSell++;
+       
     });
     
     

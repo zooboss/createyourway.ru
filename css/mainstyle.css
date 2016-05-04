@@ -651,7 +651,23 @@ section.four .container-row:first-child {
     
 }
 
+ul.product {
+    padding-top: 4vh;
+    padding-bottom: 0.3vh;
+    padding-left: 2vw;
+    
+    font-family: 'Open sans', sans-serif;
+    font-size: 2.5vh;
+    font-weight: bold;
+    
+    list-style: disc;
+}
 
+ul.product + p{
+    font-family: 'Open sans', sans-serif;
+    color: crimson;
+        
+}
 /*-------------------------------Section 4 button move---------------------------*/
 
 .move-sell {
