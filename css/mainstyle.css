@@ -583,6 +583,8 @@ section.four .container-row:first-child {
     
     opacity: 0.85;
     
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
     transition: all 1s;
 }
 
@@ -837,6 +839,8 @@ section.five .container {
 }
 
 .dark::before {
+    -webkit-filter: brightness(20%);
+    -moz-filter: brightness(20%);
     filter: brightness(20%);
 }
 
