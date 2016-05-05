@@ -822,6 +822,7 @@ section.five .container {
     transition: all 0.5s ease;
     
     text-align: center;
+    font-weight: bold;
 }
 
 /*--------------------------------section 5 form focus effects-------------------*/
@@ -851,4 +852,7 @@ section.five .container {
 /*-----------------------------------FOOTER--------------------------------------*/
 footer h1 {
     color: white;
+}
+footer {
+    background: red;
 }
