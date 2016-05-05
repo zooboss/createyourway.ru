@@ -182,6 +182,7 @@
                     <h1>c нами!</h1>
                 </div>
                 <div class="container-right-sell">
+                    <a name="anchor"></a>
                     <form action = "index.php?action=email" method = "post">
                         <input type = "text" placeholder = "Ваше имя"  name = "mail_name"     class = "form-item"> <br>
                         <input type = "text" placeholder = "Ваш email" name = "mail_contact" class = "form-item"><br>
