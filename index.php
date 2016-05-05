@@ -9,7 +9,6 @@
     echo $action;
 
     if($action == 'email') {
-        echo $_POST['mail_name'] . $_POST['mail_contact'] . $_POST['mail_subject'] . $_POST['mail_text'];
         sendmail($_POST['mail_name'], $_POST['mail_contact'], $_POST['mail_subject'], $_POST['mail_text']);
         header("Location: index.php#anchor");
     }
