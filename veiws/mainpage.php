@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Создай свой сайт</title>
+    <link rel="shortcut icon" type="image/png" href="../images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="http://createyourway.ru/images/favicon.ico"/>
     <meta charset = "utf-8">
     <meta name="Description" content="Услуги по созданию сайтов: под ключ, верстка по макету, улучшение и адаптация существующего дизайна, настройка CMS (Joomla, WordPress, Prestashop), а так же консультации и обучение веб-технологиям с помощью доступных в интернете ресурсов.">
     <meta name="Keywords" content="Создание сайтов, web development, под ключ, сайт, блог, интернет магазин, интернет, электронная коммерция, дизайн, CMS, joomla, wordpress, prestashop, design, html, javascript, js, scrollmagic, php, css, обучение, study, learning, consult, консультации, веб, web, website, веб-сайт, оптимизация, optimization, верстка, html-development, макет">
