@@ -8,7 +8,7 @@
     {
         if($_GET['action'] == 'email') {
             sendmail($_POST['mail_name'], $_POST['mail_contact'], $_POST['mail_subject'], $_POST['mail_text']);
-            header("Location: index.php#anchor");
+            header("Location: index.php#mail");
         }
     }
 
