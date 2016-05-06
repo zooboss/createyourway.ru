@@ -192,18 +192,22 @@
                     </form>
                 </div>           
             </div>
-        </section>
-        <footer>
-            <div class="container">
-                <h1> Footer </h1>
-            </div>
-        </footer>
-    
-    
-    
-    
+        </section>        
     </main>
-    <footer> </footer>
+    
+    <footer>
+            <div class="container">
+                <div class = "sitename sitename-footer">
+                    <span>Create</span>
+                    <span>Your</span>
+                    <span class="move">W</span><span class="move">a</span><span class="move">y</span>
+                    <span>A</span>
+                </div>
+                <div class = "copyright">
+                    <h4>Copyright © 2016, createyourway.ru | All rights reserved</h4>
+                </div>
+            </div>
+        </footer>    
 </body>
 
 
