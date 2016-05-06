@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /admin/
 
-http://strangenotes.ru/sitemap.xml
+http://www.createyourway.ru/sitemap.xml
