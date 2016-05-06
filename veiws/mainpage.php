@@ -184,10 +184,10 @@
                 <div class="container-right-sell">
                     <a name="anchor"></a>
                     <form action = "index.php?action=email" method = "post">
-                        <input type = "text" placeholder = "Ваше имя"  name = "mail_name"     class = "form-item"> <br>
-                        <input type = "text" placeholder = "Ваш email" name = "mail_contact" class = "form-item"><br>
-                        <input type = "text" placeholder = "Тема"      name = "mail_subject"  class = "form-item"><br>
-                        <textarea class = "mail_text form-item" placeholder = "Чем мы можем помочь?" name="mail_text"></textarea><br>
+                        <input type = "text" placeholder = "Ваше имя"  name = "mail_name"     class = "form-item" required> <br>
+                        <input type = "text" placeholder = "Ваш email" name = "mail_contact" class = "form-item" required><br>
+                        <input type = "text" placeholder = "Тема"      name = "mail_subject"  class = "form-item" required><br>
+                        <textarea class = "mail_text form-item" placeholder = "Чем мы можем помочь?" name="mail_text" required></textarea><br>
                         <input type = "submit" value = "Отправить" class="form-item form-submit">
                     </form>
                 </div>           
