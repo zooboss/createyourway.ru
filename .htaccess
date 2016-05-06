@@ -3,10 +3,10 @@ Options All -Indexes -Includes +FollowSymLinks
 <IfModule mod_rewrite.c>
 	RewriteEngine on
 	RewriteBase /
-	RewriteCond %{HTTP_HOST} ^black-web
-	RewriteRule (.*) http://www.black-web.ru/$1 [R=301,L]
+	RewriteCond %{HTTP_HOST} ^createyourway
+	RewriteRule (.*) http://www.createyourway.ru/$1 [R=301,L]
 	RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
-	RewriteRule ^index\.php$ http://www.black-web.ru/ [R=301,L]
+	RewriteRule ^index\.php$ http://www.createyourway.ru/ [R=301,L]
 </IfModule>
 
 DirectoryIndex index.php
