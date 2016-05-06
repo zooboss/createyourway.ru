@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>Создай свой сайт</title>
+    <meta name='yandex-verification' content='4bfa4606f9de9275' />
+    <meta name="google-site-verification" content="ioL8OBGrvr69ax9DeqiFJf16bsFb6NaNg4Ftd9YV_Ug" />
     <link rel="shortcut icon" type="image/png" href="../images/favicon.ico"/>
     <link rel="shortcut icon" type="image/png" href="http://createyourway.ru/images/favicon.ico"/>
     <meta charset = "utf-8">
@@ -22,6 +24,36 @@
 </head>
     
 <body>
+    
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter37214015 = new Ya.Metrika({
+                        id:37214015,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/37214015" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     
     <main>
         <section class="scene one">
